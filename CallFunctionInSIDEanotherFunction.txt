@@ -1,0 +1,12 @@
+function productoftwo(numb1){
+    let num4 = numb1*2;
+    return num4;
+}
+function sumoftwo(num1, num2){
+    let num3 = num1+num2;
+    return productoftwo(num3);
+}
+let valuereturner = sumoftwo(11, 11);
+let valuereturner2 = productoftwo(13);
+console.log(valuereturner);
+console.log(valuereturner2);
